@@ -1520,6 +1520,48 @@ h3 { font-size: clamp(1.3rem, 2.5vw, 1.7rem); font-weight: 400; }
   flex-shrink: 0;
 }
 
+/* ── Credibility Section ─────────────────────────────────────────────── */
+.credibility {
+  background: var(--navy);
+  padding: 60px 0;
+}
+
+.credibility__row {
+  text-align: center;
+  padding: 1.75rem 0;
+}
+
+.credibility__row:first-child { padding-top: 0; }
+.credibility__row:last-child  { padding-bottom: 0; }
+
+.credibility__label {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  font-variant: small-caps;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.8rem;
+}
+
+.credibility__content {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.7;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.credibility__rule {
+  border: none;
+  border-top: 1px solid rgba(184, 150, 62, 0.3);
+  margin: 0;
+}
+
 /* ── Responsive — new components ─────────────────────────────────────── */
 @media (max-width: 1024px) {
   .pa-grid { grid-template-columns: repeat(2, 1fr); }
